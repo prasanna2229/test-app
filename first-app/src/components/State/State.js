@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Props from './props/props'
 
 class State extends Component {
   constructor(){
@@ -27,7 +28,9 @@ class State extends Component {
         {this.state.title} Address is {this.state.address}
         <button onClick={this.updatetitle}>change title</button>
         <button onclick={this.updateaddress}>change address</button>
+        <Props></Props>
         </div>
+        
       </React.Fragment>
     )
    
